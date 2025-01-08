@@ -1,3 +1,45 @@
+/*******************************************************************************************
+*
+*  Author:           Rykir Evans
+*  Email:            rjevans0408@my.msutexas.edu | rykirjoe@yahoo.com
+*  Title:            KnuckleBones Game Project
+*  Course:           CMPS 2143 OOP
+*  Professor:        Terry Griffin
+*  Semester:         Fall 2024
+*
+*  Description:
+*        This Program explores utilizing the Simple and Fast Multimedia Library to create a
+*        parody of the minigame `KnuckleBones` from `Cult of the Lamb`. This program aims to
+*        combine the principles of OOP into one project and utilize knowledge learened from
+*        the course. Following the end of the semester, I took it upon myself to expand this
+*        program, implementing several features to improve playability of the game and add
+*        this project to my portfolio.
+*
+*  Usage:
+*         - Make sure you install SFML by using apt: 
+*             - `sudo apt-get install libsfml-dev`(for Linux)
+*             - `brew install sfml` (for Mac)
+*         - Compile the program and link it to SFML libraies: 
+*         ```
+*         g++ -o main main.cpp -Ipath/to/sfml/include -Lpath/to/sfml/lib -lsfml-graphics 
+*         -lsfml-window -lsfml-system
+*         ```
+*         - Alternatively, if applicable, use your own SFML compiler
+*         - Run the compiled program: `./main`
+*       
+*         Refer to README.md for instructions on gameplay
+*
+*  Files: 
+*         button.hpp
+*         dice.hpp
+*         game.hpp
+*         grid.hpp
+*         main.cpp
+*         player.hpp
+*         uname_input.hpp
+*                
+*         Various media files included.
+********************************************************************************************/
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
@@ -100,6 +142,7 @@ int main()
             {
                 if (event.type == sf::Event::MouseButtonPressed)
                 {
+                    // Look to see if restart button is clicked
                     sf::Vector2i mousePos = sf::Mouse::getPosition(window);
                     if(button.isButtonClicked(mousePos))
                         restarting = true;
