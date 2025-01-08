@@ -14,6 +14,8 @@
  *  void      - setPlacePrompt()
  *  void      - setGameOverPrompt(int s)
  *  void      - drawScore(sf::RenderWindow& window, int s)
+ *  void      - setScore(int s)
+ *  void      - hideFinalPrompt()
  *  
  *
  * Private Methods:
@@ -234,8 +236,8 @@ public:
     * Returns:
     *     None
     */
-    void setScore(int i)
-    {score = i;}
+    void setScore(int s)
+    {score = s;}
 
     /*
     * Public : hideFinalPrompt

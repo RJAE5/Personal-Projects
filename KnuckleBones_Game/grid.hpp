@@ -16,6 +16,7 @@
  *  void      - calcScore()
  *  int       - getScore()
  *  bool      - isFull()
+ *  void      - wipe()
  *  
  *
  * Private Methods:
