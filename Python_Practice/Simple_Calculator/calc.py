@@ -4,7 +4,7 @@
 #   Email:     rykirjoe@yahoo.com
 #   Title:     Simple Calculator
 #   Repo:      Personal_Projects
-#   Date:      1-15-2025 (Initial Creation)
+#   Date:      1-8-2025 (Initial Creation)
 #
 #   Description:
 #        This program was made to reinforce the usage of conditionals,
