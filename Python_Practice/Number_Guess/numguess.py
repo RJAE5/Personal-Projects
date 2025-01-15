@@ -75,6 +75,7 @@ def game():
         # Error handling
         except ValueError:
             print("That is not a valid number, please try again.")
+            
 # End of game()
 
 
