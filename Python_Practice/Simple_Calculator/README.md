@@ -1,4 +1,4 @@
-## Basics
+## Python Practice - Simple Calculator
 ### Rykir Evans
 ### Description:
 
