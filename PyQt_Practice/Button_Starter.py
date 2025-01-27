@@ -94,7 +94,7 @@ def main():
     rykir_button.resize(width // 3, height // 12)
     rykir_button.move(width // 12, height // 32)
 
-    # Rest of the functionality is intended to be implemented soon
+    # Rest of the functionality is intended to be implemented on the actual GitHub for project development
 
 
     # # # # # # # # # # # #
